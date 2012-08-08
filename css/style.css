@@ -1,0 +1,105 @@
+@import "reset.css";
+
+body{
+  font-family: 'Oswald', sans-serif;
+  margin-top: 50px;
+}
+
+#main{
+  width: 950px;
+  margin: auto;
+}
+
+h1{
+  color: #df0094;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+h1 a{
+  text-decoration: none;
+  color: inherit;
+}
+
+h2{
+  color: #b6b6b6;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#separator{
+  margin: auto;
+  margin-bottom: 40px;
+  width: 110px;
+  height: 1px;
+  background: #b6b6b6;
+}
+
+#switch-rank{
+  text-decoration: none;
+  color: #b6b6b6;
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+#country-list{
+  margin-top: 40px;
+}
+
+#country-list li{
+  width: 950px;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+#country-list li div{
+  float: left;
+}
+#country-list li div span{
+  margin-right: 5px;
+}
+
+#country-list li div.rank{
+  width: 30px;
+  color: #b6b6b6;
+  text-align: right;
+  margin-right: 10px;
+}
+
+#country-list li div.country{
+  width: 240px;
+  color: #df0094;
+  margin-right: 10px;
+}
+
+#country-list li div.gold, #country-list li div.silver, #country-list li div.bronze{
+  width: 40px;
+  margin-right: 20px;
+}
+#country-list li div.gold span{ color: #ffcc00; }
+#country-list li div.silver span{ color: #c4c4c4; }
+#country-list li div.bronze span{ color: #b57c00; }
+
+#country-list li div.population{
+  margin-left: 20px;
+  margin-right: 10px;
+  padding-left: 25px;
+  width: 130px;
+  background: url(../images/population.gif) no-repeat left center;
+}
+
+#country-list li div.ratio{
+  background: #df0094;
+  height: 30px;
+}
+
+#footer{
+  margin: 20px 0 60px 40px;
+  font-size: 20px;
+  color: #b6b6b6;
+}
+#footer a{
+  text-decoration: none;
+  color: #b6b6b6;
+  border-bottom: 1px dotted #b6b6b6;
+}
