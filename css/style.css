@@ -25,6 +25,13 @@ h2{
   color: #b6b6b6;
   font-size: 40px;
   text-align: center;
+  margin-bottom: 20px;
+}
+
+h3{
+  color: #b6b6b6;
+  font-size: 30px;
+  text-align: center;
   margin-bottom: 40px;
 }
 
