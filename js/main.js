@@ -39,16 +39,6 @@ function manageSwitch()
   });
 }
 
-function sortByPopulation(localData)
-{
-  localData.sort(function(a, b){
-    b.sortingValue = b.population;
-    a.sortingValue = a.population;
-    return b.sortingValue - a.sortingValue;
-  });
-  return getRanking(localData);
-}
-
 function sortByMedals(localData)
 {
   localData.sort(function(a, b){
